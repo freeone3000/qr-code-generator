@@ -1,0 +1,8 @@
+[package]
+name = "qr-code-maker"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+qr_code = { version = "2.0.0", features = ["bmp"] }
+arboard = "3.6.1"
